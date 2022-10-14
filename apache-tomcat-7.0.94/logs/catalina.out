@@ -1,0 +1,74 @@
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-1160.53.1.el7.x86_64
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.345.b01-1.el7_9.x86_64/jre
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_345-b01
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Red Hat, Inc.
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/conf/logging.properties
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/vagrant/javaWebCalculator/apache-tomcat-7.0.94
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/vagrant/javaWebCalculator/apache-tomcat-7.0.94
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/temp
+Oct 14, 2022 7:05:39 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Oct 14, 2022 7:05:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Oct 14, 2022 7:05:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 617 ms
+Oct 14, 2022 7:05:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Oct 14, 2022 7:05:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Oct 14, 2022 7:05:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/ROOT
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/ROOT has finished in 312 ms
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/docs
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/docs has finished in 43 ms
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/examples
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/examples has finished in 206 ms
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/host-manager
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/host-manager has finished in 41 ms
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/manager
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/vagrant/javaWebCalculator/apache-tomcat-7.0.94/webapps/manager has finished in 37 ms
+Oct 14, 2022 7:05:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Oct 14, 2022 7:05:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Oct 14, 2022 7:05:40 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 703 ms
